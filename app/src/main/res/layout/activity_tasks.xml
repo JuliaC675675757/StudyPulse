@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <!-- Title -->
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/profile"
+        android:contentDescription="Back"
+        android:layout_marginBottom="10dp"/>
+
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Tasks"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Label -->
+    <TextView
+        android:id="@+id/txtEnterTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter a task:"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Task Input -->
+    <EditText
+        android:id="@+id/edtTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type your task here"
+        android:inputType="text"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Add Button -->
+    <Button
+        android:id="@+id/btnAddTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Task"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Label -->
+    <TextView
+        android:id="@+id/txtTaskList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Task List"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp" />
+
+    <!-- List of Tasks -->
+    <ListView
+        android:id="@+id/listTasks"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>
