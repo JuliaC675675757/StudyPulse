@@ -3,6 +3,10 @@
 ## Project Description
 StudyPulse is an Android application that helps students organize their study tasks and manage study sessions using a Pomodoro timer.
 
+#Video Presentation
+
+https://drive.google.com/file/d/1U5J9Wy7R-DX_XTv17R4FIghX6MVJZwsd/view?usp=sharing
+
 ## Features
 - User Login
 - Dashboard
